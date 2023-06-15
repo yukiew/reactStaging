@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>React App</title>
+</head>
+
+<body>
+	<div id="root">
+		<divc className="todo-container">
+			<div className="todo-wrap">
+				<div className="todo-header">
+					<input type="text" placeholder="請輸入你的任務名稱，按Enter確認" />
+				</div>
+				<ul className="todo-List">
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span>xxxx</span>
+						</label>
+						<button className="btn btn-danger" style={{display:'none'}}>刪除</button>
+					</li>
+				</ul>
+				<div className="todo-footer">
+					<label>
+						<input type="checkbox" />
+					</label>
+					<span>
+						<span>已完成0</span> / 全部1
+					</span>
+					<button className="btn btn-danger">清除完成任務</button>
+				</div>
+			</div>
+		</divc>
+	</div>
+</body>
+
+</html>
