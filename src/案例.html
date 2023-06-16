@@ -9,31 +9,45 @@
 
 <body>
 	<div id="root">
-		<divc className="todo-container">
-			<div className="todo-wrap">
-				<div className="todo-header">
+		<div class="todo-container">
+			<div class="todo-wrap">
+				<div class="todo-header">
 					<input type="text" placeholder="請輸入你的任務名稱，按Enter確認" />
 				</div>
-				<ul className="todo-List">
+				<ul class="todo-list">
 					<li>
 						<label>
 							<input type="checkbox" />
 							<span>xxxx</span>
 						</label>
-						<button className="btn btn-danger" style={{display:'none'}}>刪除</button>
+						<button class="btn btn-danger" style="display:none">刪除</button>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span>2222</span>
+						</label>
+						<button class="btn btn-danger" style="display:none">刪除</button>
+					</li>
+					<li>
+						<label>
+							<input type="checkbox" />
+							<span>3333</span>
+						</label>
+						<button class="btn btn-danger" style="display:none">刪除</button>
 					</li>
 				</ul>
-				<div className="todo-footer">
+				<div class="todo-footer">
 					<label>
 						<input type="checkbox" />
 					</label>
 					<span>
 						<span>已完成0</span> / 全部1
 					</span>
-					<button className="btn btn-danger">清除完成任務</button>
+					<button class="btn btn-danger">清除完成任務</button>
 				</div>
 			</div>
-		</divc>
+		</div>
 	</div>
 </body>
 

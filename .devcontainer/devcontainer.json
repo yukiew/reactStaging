@@ -7,10 +7,16 @@
     },
     "extensions": [
       "dbaeumer.vscode-eslint"
-    ]
+	],
+	"vscode": {
+		"extensions": [
+			"ritwickdey.LiveServer",
+			"dsznajder.es7-react-js-snippets"
+		]
+	}
   },
   "forwardPorts": [
-    3000
+    5500
   ],
   "postCreateCommand": "npm install"
 }
